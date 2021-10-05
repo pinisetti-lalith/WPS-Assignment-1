@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+    <style>
+
+        .row{
+            padding:120px 120px ;
+            margin:auto;
+            border-radius: 10px;
+            align-items: center;
+
+        }
+
+        td{
+            width:200px; ;
+            text-align:center;
+        }
+        
+        table{
+            margin-top: 50px;
+        }
+        tr{
+            padding: 10px;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+        <table border="5" align="center" cellspacing="0">
+            <tr align="center" >
+                <td><b>Bus no.</b></td>
+                <td><b>Route</b></td>
+                <td><b>Driver</b></td>
+            </tr>
+
+            <tr>
+                <td >1</td>
+                <td >ECIL 'x' roads</td>
+                <td >Venkatesh</td>
+            </tr>
+            <tr>
+                <td >2</td>
+                <td >Vanasthalipuram Red Tank</td>
+                <td >Raju</td>
+            </tr>
+            <tr>
+                <td >3</td>
+                <td >Uppal Bus Depot.</td>
+                <td >Raheem</td>
+            </tr>
+            <tr>
+                <td >4</td>
+                <td >KPHB(JNTUH)</td>
+                <td >Krishna</td>
+            </tr>
+            <tr>
+                <td >5</td>
+                <td >Bheeramguda</td>
+                <td >Nandu</td>
+            </tr>
+            <tr>
+                <td >6</td>
+                <td >Alwal( I.G Statue)</td>
+                <td >Saleem</td>
+            </tr>
+            <tr>
+                <td >7</td>
+                <td >Vanasthalipuram Rythu Bazaar</td>
+                <td >Laxma Reddy</td>
+            </tr>
+            <tr>
+                <td >8</td>
+                <td >Nagole 'x' roads</td>
+                <td >Srinu</td>
+            </tr>
+
+        </table>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body" align="center">
+                        <h5 class="card-title">Exclusive Bus Pass</h5>
+                        <p class="card-text">The main benifits of taking the Exclusive student pass is that route map of the bus will be specific to the students on board with limited number, taking the minimum possible time to reach destination.</p>
+                        <a href="exclusive_bus_pass.html" class="btn btn-primary">Proceed</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body" align="center">
+                        <h5 class="card-title" >General Bus Pass</h5>
+                        <p class="card-text">This bus takes the main route of the state RTC services via the main roads of the city, also students with this pass are allowed to board any bus which is available with the General Bus facility.</p>
+                        <a href="general_bus_pass.html" class="btn btn-primary">Proceed</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    </div>
+</body>
+</html>

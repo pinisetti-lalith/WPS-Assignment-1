@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="E3-2.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+
+    <style>
+        body {
+  margin: 0;
+  padding: 0;
+  background: url(new.jpg) no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+}
+.box-img {
+  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="box">
+        <img src="bus.png" alt="Profile Picture" class="box-img">
+        <h1>Contact Us</h1>
+        <h3> Student Transposrt Facility</h3>
+        <h5>
+            mail us at - transport@studnets.com
+            call us - 404-12345678, 404-98765432
+        </h5>
+    </div>
+</body>
+
+</html>

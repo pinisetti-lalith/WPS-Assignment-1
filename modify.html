@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Student Pass</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <form class="signup-form" action="" method="post">
+
+        <div class="form-header">
+            <h1>Modify Student Pass</h1>
+        </div>
+
+        <div class="form-body">
+
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="firstname" class="label-title">First name *</label>
+                    <input type="text" id="firstname" class="form-input" placeholder="enter your first name"
+                        required="required" />
+                </div>
+                <div class="form-group right">
+                    <label for="lastname" class="label-title">Last name</label>
+                    <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="label-title">Email*</label>
+                <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+            </div>
+            <div class="form-group">
+                <label for="clgname" class="label-title">College Name *</label>
+                <input type="text" id="clgname" class="form-input" placeholder="enter your college name" required="required">
+            </div>
+            <div class="form-group">
+                <label for="rollno" class="label-title">Roll no *</label>
+                <input type="text" id="rollno" class="form-input" placeholder="enter your college name" required="required">
+            </div>
+
+            <div class="horizontal-group">
+
+                <div class="form-group left">
+                    <label class="label-title">Department</label>
+                    <select>
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>Civil</option>
+                        <option>MECH</option>
+                        <option>EEE</option>
+                    </select>
+                </div>
+
+                <div class="form-group right">
+                    <label class="label-title">Type of Pass</label>
+                    <select required="required">
+                        <option>Exclusive</option>
+                        <option>General</option>
+                    </select>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="choose-file" class="label-title">Upload Bonafide Here *</label>
+                    <input type="file" id="choose-file" size="80" required="required">
+                </div>
+                <div class="form-group right">
+                    <label for="choose-file" class="label-title">Upload College ID here *</label>
+                    <input type="file" id="choose-file" size="80" required="required">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="form-footer">
+            <span>* required</span>
+            <button class="btn"><a href="exit.html">Modify</a></button>
+        </div>
+
+    </form>
+</body>
+
+</html>
